@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #1E1E1E;
+    color: white;
+}
