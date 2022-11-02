@@ -6,8 +6,8 @@
 
 body {
     background-image: url(./background.svg);
-    background-position-x: center;
-    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #1E1E1E;
 }
 
@@ -15,19 +15,9 @@ body * {
     font-family: 'Roboto', sans-serif;
 }
 
-ul {
-    list-style: none;
-}
-
 #app {
     width: fit-content;
     margin: 52px auto;
-  }
-
-body div #app {
-    width: fit-content;
-    margin: 52px auto;
-
 }
 
 header {
@@ -36,12 +26,15 @@ header {
     justify-content: center;
 }
 
+#cards {
+    display:flex;
+    gap: 32px;
+}
+
 .card {
     background: #202024;
     border-bottom: 2px solid #338AF3;
     border-radius: 6px;
-    width: fit-content;
-    justify-content: space-between;
     align-items: center;
     padding: 32px 23px;
 }
@@ -62,9 +55,7 @@ header {
 
 .card h2 span{
     color: #E1E1E6;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 125%;
 }
 
 .card ul {
@@ -93,4 +84,8 @@ header {
     font-size: 36px;
     line-height: 125%;
     color: #E1E1E6;
+}
+
+ul {
+    list-style: none;
 }
