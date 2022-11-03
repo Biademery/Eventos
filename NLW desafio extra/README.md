@@ -1,8 +1,19 @@
-# NLW - Desafio extra
+#
 
- <img src="./assets/pf.png">
+<h1 align="center">NLW E-Sports - Desafio Extra</h1>
 
-## 🛠 Tecnologias
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-- HTML
-- CSS
+## 💻 Projeto
+
+NLW ESports - Desafio Extra é um projeto para construir uma página com seus filmes e séries favoritos.
+
+## ✨ Tecnologias
+
+Esse projeto foi construido usando as seguintes tecnologias:
+
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/)
