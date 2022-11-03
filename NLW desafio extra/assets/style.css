@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Fundo.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #121214;
+    line-height: 160%;
+}
+
+header {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-image {
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    padding: 4px;
+}
+
+section {
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', 'sans-serif';
+    
+    background: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    max-width: 520px;
+    width: 90%;
+    max-height: 294px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 24px;
+    padding-top: 4px;
+    display: grid;
+    gap: 24px;
+
+    
+}
+
+section div {
+    background-color: #262629;
+    border-radius: 8px;
+    max-width: 520px;
+    max-height: 294px;
+    padding: 24px 32px 32px;
+    
+}
+
+#social {
+    max-width: 520px;
+    max-height: 176px;
+}
+
+h2 {
+    color: white;
+    font: 900;
+    letter-spacing: -0.47px;
+    font-size: 24px;
+}
+
+p {
+    color: #555555;
+    font: 400;
+    letter-spacing: -0.18px;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.movies-image,
+.series-image {
+    border-radius: 16px;
+    width: 100px;
+    height: 150px;
+}
