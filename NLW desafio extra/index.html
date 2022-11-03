@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NLW Desafio Extra</title>
+
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <header>
       <div>
-        <img src="./assets/Bia.jpeg" alt="Foto de Bia" />
+        <img class="header-image" src="./assets/Bia.jpeg" alt="Foto de Bia" />
       </div>
     </header>
 
@@ -18,10 +27,11 @@
         <h2>Meus filmes</h2>
         <p>Os filmes que mais curto!</p>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://www.themoviedb.org/movie/762975">
               <img
+                class="movies-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/4JyNWkryifWbWXJyxcWh3pVya6N.jpg"
                 alt="Imagem do filme Purple Hearts"
               />
@@ -30,6 +40,7 @@
           <li>
             <a href="https://www.themoviedb.org/movie/299534">
               <img
+                class="movies-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
                 alt="Imagem do filme Avengers Endgame"
               />
@@ -38,6 +49,7 @@
           <li>
             <a href="https://www.themoviedb.org/movie/12445">
               <img
+                class="movies-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
                 alt="Imagem do filme Harry Potter e as relíquias da morte: Parte II"
               />
@@ -46,6 +58,7 @@
           <li>
             <a href="https://www.themoviedb.org/movie/157336">
               <img
+                class="movies-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
                 alt="Imagem do filme Interstellar"
               />
@@ -60,10 +73,11 @@
         <h2>Minhas séries</h2>
         <p>Essas são as melhores!</p>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://www.themoviedb.org/tv/60574">
               <img
+                class="series-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg"
                 alt="Imagem da série Peaky Blinders"
               />
@@ -72,6 +86,7 @@
           <li>
             <a href="https://www.themoviedb.org/tv/63174">
               <img
+                class="series-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/ekZobS8isE6mA53RAiGDG93hBxL.jpg"
                 alt="Imagem da série Lúcifer"
               />
@@ -80,6 +95,7 @@
           <li>
             <a href="https://www.themoviedb.org/tv/1668">
               <img
+                class="series-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
                 alt="Imagem da série Friends"
               />
@@ -91,6 +107,7 @@
                         https://www.themoviedb.org/tv/2038"
             >
               <img
+                class="series-image"
                 src="https://www.themoviedb.org/t/p/w220_and_h330_face/bXMVdDvRVOFr46YKf6w0ehGAd8X.jpg"
                 alt="Imagem da série Drake e Josh"
               />
@@ -101,11 +118,11 @@
     </section>
 
     <section>
-      <div>
+      <div id="social">
         <h2>Minhas redes</h2>
         <p>Se conecte comigo agora mesmo!</p>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="https://www.instagram.com/anademery">
               <svg
