@@ -11,6 +11,8 @@
 
 NLW ESports é um projeto para construir uma página com seus jogos e streamers favoritos.
 
+<img src="./assets/pf.png" alt="Logo da NLW Copa" />
+
 ## ✨ Tecnologias
 
 Esse projeto foi construido usando as seguintes tecnologias:
