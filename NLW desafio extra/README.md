@@ -11,6 +11,8 @@
 
 NLW ESports - Desafio Extra é um projeto para construir uma página com seus filmes e séries favoritos.
 
+<img src="./assets/pf.png" alt="Imagem do projeto final" />
+
 ## ✨ Tecnologias
 
 Esse projeto foi construido usando as seguintes tecnologias:
