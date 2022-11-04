@@ -4,7 +4,7 @@
 
 ## ✨ Tecnologias
 
-Esse projeto foi construido usando as seguintes tecnologias:
+Esses projetos foram construidos usando as seguintes tecnologias:
 
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
