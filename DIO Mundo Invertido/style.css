@@ -172,3 +172,30 @@ header::before {
   background-color: var(--primary-color);
   color: var(--primary-color-contrast);
 }
+
+/*** WORLD CHARACTERS STYLES ***/
+
+.world-characters {
+  width: 100%;
+  max-width: 900px;
+  position: absolute;
+}
+
+.world-characters#top-characters {
+  height: 100%;
+  background-color: var(--character-top-image-color);
+  bottom: -3px;
+
+  mask: var(--character-top-image-src) bottom / contain no-repeat;
+  -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
+}
+
+.world-characters#bottom-characters {
+  height: 500px;
+  background-color: var(--character-bottom-image-color);
+  top: 3px;
+  transform: rotateZ(180deg) scaleX(-1);
+  position: relative;
+  mask: var(--character-bottom-image-src) bottom / contain no-repeat;
+  -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
+}
