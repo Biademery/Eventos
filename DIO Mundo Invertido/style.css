@@ -199,3 +199,57 @@ header::before {
   mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
+
+/*** SECTIONS STYLES ***/
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+
+/* Section 01 - Inverted World */
+
+.container {
+  max-width: 1200px;
+}
+
+#section-inverted-world {
+  align-items: center;
+}
+
+#section-inverted-world .section-texts {
+  width: 50%;
+}
+
+#section-inverted-world .section-texts h2 {
+  max-width: 300px;
+}
+
+/* Section 02 - Stranger Things Trailer */
+
+#section-stranger-things-trailer .section-texts {
+  width: 50%;
+  text-align: right;
+}
+
+#section-stranger-things-trailer .section-texts h2 {
+  max-width: 425px;
+  display: inline-block;
+}
+
+#section-stranger-things-trailer .video-frame {
+  background-color: var(--primary-color);
+}
+
+#section-stranger-things-trailer .video-frame iframe {
+  position: relative;
+  bottom: 24px;
+  left: 24px;
+  border: 2px solid;
+  border-image: linear-gradient(
+    var(--primary-color),
+    var(--primary-color-contrast)
+  );
+  border-image-slice: 10;
+}
