@@ -21,18 +21,19 @@
 		<img src="./assets/logo.svg" alt="logo da Habits">
 		<button>
 			<img src="./assets/plus.svg" alt="ícone de adicionar">
-			Registrar meu dia
+			<div>Registrar meu dia</div>
 		</button>
 	</section>
 	<section>
 		<form id="form-habits">
 			<div class="habits">
-				<div class="habit">🥤</div>
-				<div class="habit">🧆</div>
-				<div class="habit">🏋️‍♀️</div>
-				<div class="habit">📚</div>
-				<div class="habit">🛀🏻</div>
-				<div class="habit">👩🏻‍💻</div>
+				<div class="habit" data-name="water">🥤</div>
+				<div class="habit" data-name="food">🧆</div>
+				<div class="habit" data-name="gym">🏋️‍♀️</div>
+				<div class="habit" data-name="study">📚</div>
+				<div class="habit" data-name="shower">🛀🏻</div>
+				<div class="habit" data-name="college">👩🏻‍💻</div>
+				<div class="habit" data-name="pill">💊</div>
 			</div>
 			<div class="days">
 				<div class="day">
@@ -43,6 +44,7 @@
 				  <input type="checkbox" name="study" />
 				  <input type="checkbox" name="shower" />
 				  <input type="checkbox" name="college" />
+				  <input type="checkbox" name="pill" />
 				</div>
 		
 				<div class="day">
@@ -53,9 +55,12 @@
 				  <input type="checkbox" name="study" />
 				  <input type="checkbox" name="shower" />
 				  <input type="checkbox" name="college" />
+				  <input type="checkbox" name="pill" />
 				</div>
 			</div>
 		</form>
 	</section>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+	<script src="./app.js"></script>
 </body>
 </html>

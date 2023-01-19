@@ -8,7 +8,6 @@ body {
   color: #FFFFFF;
   background-color: #09090A;
   height: 100vh;
-  margin: 2%;
 
   font-family: 'Inter';
 }
@@ -18,6 +17,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 48px;
+
+  position: fixed;
+  background-color: #09090A;
+  width: 100%;
 }
 
 .header button {
@@ -43,7 +46,8 @@ body {
 
 #form-habits {
   display: flex;
-  padding: 0 48px;
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 
 .habits {
@@ -94,9 +98,16 @@ input {
   border: 2px solid #27272A;
   border-radius: 8px;
   background: #18181B;
+  cursor: pointer;
 }
 
 input:checked {
   background: #8B5CF6;
   border: 2px solid #A78BFA;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }
