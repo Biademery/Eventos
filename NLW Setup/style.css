@@ -40,10 +40,6 @@ body {
   line-height: 125%;
 }
 
-.header button:hover {
-  opacity: 0.7;
-}
-
 #form-habits {
   display: flex;
   padding: 182px 48px 48px;
